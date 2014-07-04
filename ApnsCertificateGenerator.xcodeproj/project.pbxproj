@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548FD0C91966611500BD7134 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FD0C81966611500BD7134 /* Cocoa.framework */; };
+		548FD0D31966611500BD7134 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0D11966611500BD7134 /* InfoPlist.strings */; };
+		548FD0D51966611500BD7134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548FD0D41966611500BD7134 /* main.m */; };
+		548FD0D91966611500BD7134 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0D71966611500BD7134 /* Credits.rtf */; };
+		548FD0DF1966611500BD7134 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0DD1966611500BD7134 /* MainMenu.xib */; };
+		548FD0E11966611500BD7134 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0E01966611500BD7134 /* Images.xcassets */; };
+		548FD0E81966611500BD7134 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FD0E71966611500BD7134 /* XCTest.framework */; };
+		548FD0E91966611500BD7134 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FD0C81966611500BD7134 /* Cocoa.framework */; };
+		548FD0F11966611500BD7134 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0EF1966611500BD7134 /* InfoPlist.strings */; };
+		548FD0F31966611500BD7134 /* ApnsCertificateGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548FD0F21966611500BD7134 /* ApnsCertificateGeneratorTests.m */; };
+		548FD1001966718100BD7134 /* keyToPem.sh in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0FD1966718100BD7134 /* keyToPem.sh */; };
+		548FD1011966718100BD7134 /* cerAndKeyToP12.sh in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0FE1966718100BD7134 /* cerAndKeyToP12.sh */; };
+		548FD1021966718100BD7134 /* apnsCertificateGenerator.sh in Resources */ = {isa = PBXBuildFile; fileRef = 548FD0FF1966718100BD7134 /* apnsCertificateGenerator.sh */; };
+		548FD1031966741800BD7134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548FD0DB1966611500BD7134 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		548FD0EA1966611500BD7134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548FD0BD1966611500BD7134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548FD0C41966611500BD7134;
+			remoteInfo = ApnsCertificateGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		548FD0C51966611500BD7134 /* ApnsCertificateGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApnsCertificateGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548FD0C81966611500BD7134 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		548FD0CB1966611500BD7134 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		548FD0CC1966611500BD7134 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		548FD0CD1966611500BD7134 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		548FD0D01966611500BD7134 /* ApnsCertificateGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApnsCertificateGenerator-Info.plist"; sourceTree = "<group>"; };
+		548FD0D21966611500BD7134 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548FD0D41966611500BD7134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		548FD0D61966611500BD7134 /* ApnsCertificateGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApnsCertificateGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		548FD0D81966611500BD7134 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		548FD0DA1966611500BD7134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		548FD0DB1966611500BD7134 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		548FD0DE1966611500BD7134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		548FD0E01966611500BD7134 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		548FD0E61966611500BD7134 /* ApnsCertificateGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApnsCertificateGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548FD0E71966611500BD7134 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		548FD0EE1966611500BD7134 /* ApnsCertificateGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApnsCertificateGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		548FD0F01966611500BD7134 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548FD0F21966611500BD7134 /* ApnsCertificateGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApnsCertificateGeneratorTests.m; sourceTree = "<group>"; };
+		548FD0FD1966718100BD7134 /* keyToPem.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = keyToPem.sh; sourceTree = "<group>"; };
+		548FD0FE1966718100BD7134 /* cerAndKeyToP12.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = cerAndKeyToP12.sh; sourceTree = "<group>"; };
+		548FD0FF1966718100BD7134 /* apnsCertificateGenerator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = apnsCertificateGenerator.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548FD0C21966611500BD7134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD0C91966611500BD7134 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548FD0E31966611500BD7134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD0E91966611500BD7134 /* Cocoa.framework in Frameworks */,
+				548FD0E81966611500BD7134 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548FD0BC1966611500BD7134 = {
+			isa = PBXGroup;
+			children = (
+				548FD0FC1966716100BD7134 /* ShellScript */,
+				548FD0CE1966611500BD7134 /* ApnsCertificateGenerator */,
+				548FD0EC1966611500BD7134 /* ApnsCertificateGeneratorTests */,
+				548FD0C71966611500BD7134 /* Frameworks */,
+				548FD0C61966611500BD7134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		548FD0C61966611500BD7134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0C51966611500BD7134 /* ApnsCertificateGenerator.app */,
+				548FD0E61966611500BD7134 /* ApnsCertificateGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548FD0C71966611500BD7134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0C81966611500BD7134 /* Cocoa.framework */,
+				548FD0E71966611500BD7134 /* XCTest.framework */,
+				548FD0CA1966611500BD7134 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548FD0CA1966611500BD7134 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0CB1966611500BD7134 /* AppKit.framework */,
+				548FD0CC1966611500BD7134 /* CoreData.framework */,
+				548FD0CD1966611500BD7134 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		548FD0CE1966611500BD7134 /* ApnsCertificateGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0DA1966611500BD7134 /* AppDelegate.h */,
+				548FD0DB1966611500BD7134 /* AppDelegate.m */,
+				548FD0DD1966611500BD7134 /* MainMenu.xib */,
+				548FD0E01966611500BD7134 /* Images.xcassets */,
+				548FD0CF1966611500BD7134 /* Supporting Files */,
+			);
+			path = ApnsCertificateGenerator;
+			sourceTree = "<group>";
+		};
+		548FD0CF1966611500BD7134 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0D01966611500BD7134 /* ApnsCertificateGenerator-Info.plist */,
+				548FD0D11966611500BD7134 /* InfoPlist.strings */,
+				548FD0D41966611500BD7134 /* main.m */,
+				548FD0D61966611500BD7134 /* ApnsCertificateGenerator-Prefix.pch */,
+				548FD0D71966611500BD7134 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548FD0EC1966611500BD7134 /* ApnsCertificateGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0F21966611500BD7134 /* ApnsCertificateGeneratorTests.m */,
+				548FD0ED1966611500BD7134 /* Supporting Files */,
+			);
+			path = ApnsCertificateGeneratorTests;
+			sourceTree = "<group>";
+		};
+		548FD0ED1966611500BD7134 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0EE1966611500BD7134 /* ApnsCertificateGeneratorTests-Info.plist */,
+				548FD0EF1966611500BD7134 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548FD0FC1966716100BD7134 /* ShellScript */ = {
+			isa = PBXGroup;
+			children = (
+				548FD0FD1966718100BD7134 /* keyToPem.sh */,
+				548FD0FE1966718100BD7134 /* cerAndKeyToP12.sh */,
+				548FD0FF1966718100BD7134 /* apnsCertificateGenerator.sh */,
+			);
+			name = ShellScript;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548FD0C41966611500BD7134 /* ApnsCertificateGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548FD0F61966611500BD7134 /* Build configuration list for PBXNativeTarget "ApnsCertificateGenerator" */;
+			buildPhases = (
+				548FD0C11966611500BD7134 /* Sources */,
+				548FD0C21966611500BD7134 /* Frameworks */,
+				548FD0C31966611500BD7134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApnsCertificateGenerator;
+			productName = ApnsCertificateGenerator;
+			productReference = 548FD0C51966611500BD7134 /* ApnsCertificateGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		548FD0E51966611500BD7134 /* ApnsCertificateGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548FD0F91966611500BD7134 /* Build configuration list for PBXNativeTarget "ApnsCertificateGeneratorTests" */;
+			buildPhases = (
+				548FD0E21966611500BD7134 /* Sources */,
+				548FD0E31966611500BD7134 /* Frameworks */,
+				548FD0E41966611500BD7134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548FD0EB1966611500BD7134 /* PBXTargetDependency */,
+			);
+			name = ApnsCertificateGeneratorTests;
+			productName = ApnsCertificateGeneratorTests;
+			productReference = 548FD0E61966611500BD7134 /* ApnsCertificateGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548FD0BD1966611500BD7134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhanghui;
+				TargetAttributes = {
+					548FD0E51966611500BD7134 = {
+						TestTargetID = 548FD0C41966611500BD7134;
+					};
+				};
+			};
+			buildConfigurationList = 548FD0C01966611500BD7134 /* Build configuration list for PBXProject "ApnsCertificateGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 548FD0BC1966611500BD7134;
+			productRefGroup = 548FD0C61966611500BD7134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548FD0C41966611500BD7134 /* ApnsCertificateGenerator */,
+				548FD0E51966611500BD7134 /* ApnsCertificateGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548FD0C31966611500BD7134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD1011966718100BD7134 /* cerAndKeyToP12.sh in Resources */,
+				548FD1001966718100BD7134 /* keyToPem.sh in Resources */,
+				548FD0D31966611500BD7134 /* InfoPlist.strings in Resources */,
+				548FD0E11966611500BD7134 /* Images.xcassets in Resources */,
+				548FD1021966718100BD7134 /* apnsCertificateGenerator.sh in Resources */,
+				548FD0D91966611500BD7134 /* Credits.rtf in Resources */,
+				548FD0DF1966611500BD7134 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548FD0E41966611500BD7134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD0F11966611500BD7134 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548FD0C11966611500BD7134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD1031966741800BD7134 /* AppDelegate.m in Sources */,
+				548FD0D51966611500BD7134 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548FD0E21966611500BD7134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548FD0F31966611500BD7134 /* ApnsCertificateGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		548FD0EB1966611500BD7134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548FD0C41966611500BD7134 /* ApnsCertificateGenerator */;
+			targetProxy = 548FD0EA1966611500BD7134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		548FD0D11966611500BD7134 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548FD0D21966611500BD7134 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		548FD0D71966611500BD7134 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548FD0D81966611500BD7134 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		548FD0DD1966611500BD7134 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548FD0DE1966611500BD7134 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		548FD0EF1966611500BD7134 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548FD0F01966611500BD7134 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548FD0F41966611500BD7134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		548FD0F51966611500BD7134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		548FD0F71966611500BD7134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsCertificateGenerator/ApnsCertificateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "ApnsCertificateGenerator/ApnsCertificateGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		548FD0F81966611500BD7134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsCertificateGenerator/ApnsCertificateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "ApnsCertificateGenerator/ApnsCertificateGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		548FD0FA1966611500BD7134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ApnsCertificateGenerator.app/Contents/MacOS/ApnsCertificateGenerator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsCertificateGenerator/ApnsCertificateGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ApnsCertificateGeneratorTests/ApnsCertificateGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		548FD0FB1966611500BD7134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ApnsCertificateGenerator.app/Contents/MacOS/ApnsCertificateGenerator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsCertificateGenerator/ApnsCertificateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "ApnsCertificateGeneratorTests/ApnsCertificateGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548FD0C01966611500BD7134 /* Build configuration list for PBXProject "ApnsCertificateGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548FD0F41966611500BD7134 /* Debug */,
+				548FD0F51966611500BD7134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548FD0F61966611500BD7134 /* Build configuration list for PBXNativeTarget "ApnsCertificateGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548FD0F71966611500BD7134 /* Debug */,
+				548FD0F81966611500BD7134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		548FD0F91966611500BD7134 /* Build configuration list for PBXNativeTarget "ApnsCertificateGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548FD0FA1966611500BD7134 /* Debug */,
+				548FD0FB1966611500BD7134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548FD0BD1966611500BD7134 /* Project object */;
+}
