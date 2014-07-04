@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>705EE1CF-6508-4E37-BBCB-BC7A21836FC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ApnsCertificateGenerator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3269E486-D5EE-4EEF-B48C-88FE94806003</key>
+		<string>https://github.com/zhanghui1830/ApnsCertificateGenerator-.git</string>
+		<key>B864F612-C120-4CA3-9C11-7C624BBCDF5C</key>
+		<string>https://github.com/zhanghui1830/ApnsCertificateGenerator-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ApnsCertificateGenerator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3269E486-D5EE-4EEF-B48C-88FE94806003</key>
+		<string>../..</string>
+		<key>B864F612-C120-4CA3-9C11-7C624BBCDF5C</key>
+		<string>../../ApnsCertificateGenerator</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhanghui1830/ApnsCertificateGenerator-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3269E486-D5EE-4EEF-B48C-88FE94806003</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3269E486-D5EE-4EEF-B48C-88FE94806003</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ApnsCertificateGenerator</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B864F612-C120-4CA3-9C11-7C624BBCDF5C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ApnsCertificateGenerator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
